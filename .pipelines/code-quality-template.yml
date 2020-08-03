@@ -14,7 +14,7 @@ steps:
   inputs:
     testResultsFiles: '*-testresults.xml'
     testRunTitle: 'Linting & Unit tests'
-    failTaskOnFailedTests: true
+    failTaskOnFailedTests: false
   displayName: 'Publish test results'
 
 - task: PublishCodeCoverageResults@1
